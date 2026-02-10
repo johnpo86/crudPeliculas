@@ -9,6 +9,7 @@ services:
       - ASPNETCORE_ENVIRONMENT=Development
     volumes:
       - sqlite_data:/app/data
+      - ./backend/logs:/app/logs
 
   frontend:
     build:
