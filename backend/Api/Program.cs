@@ -46,7 +46,7 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
-// Auto-migrate database (Handle potential wait for Postgres)
+// Auto-migrate database
 try 
 {
     using var scope = app.Services.CreateScope();

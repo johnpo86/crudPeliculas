@@ -12,6 +12,15 @@ Este proyecto es una API robusta y modernizada para la gestión de películas y 
 - [Docker](https://www.docker.com/)
 
 ## Cómo empezar
+
+### Como clonar el repositorio
+
+```bash
+git clone https://github.com/johnpo86/crudPeliculas.git
+```
+
+### Como levantar el sistema
+
 Solo necesitas un comando para levantar todo el sistema:
 
 ```bash
